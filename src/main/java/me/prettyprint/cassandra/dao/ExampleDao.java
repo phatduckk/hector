@@ -27,7 +27,7 @@ import static me.prettyprint.cassandra.utils.StringUtils.string;
 public class ExampleDao {
 
   private final static String CASSANDRA_KEYSPACE = "Keyspace1";
-  private final static int CASSANDRA_PORT = 9170;
+  private final static int CASSANDRA_PORT = 9160;
   private final static String CASSANDRA_HOST = "localhost";
   private final String CF_NAME = "Standard1";
   /** Column name where values are stored */
